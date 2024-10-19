@@ -2,7 +2,7 @@
 include "dbase.php";
 include "sqlobj.php";
 $vals=$_POST["pvals"];
-print_r($vals);
+// print_r($vals);
 
 $myclass = new sqlobj($bdd);  
 
