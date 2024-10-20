@@ -17,5 +17,5 @@ $stmt->execute([
     ":title" => $vals[0],
     ":content" => $vals[1]
 ]);
-echo "complete";
+echo "complete"; 
 ?>
